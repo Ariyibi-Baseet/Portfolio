@@ -1,8 +1,7 @@
 module.exports = {
   // path to all of my template
-  content: ["./src/**/*.{html,js}"],
+  content: ["./public/**/*.{html,js,css}"],
   theme: {
     extend: {},
-  },
-  plugins: [],
+  }
 }
