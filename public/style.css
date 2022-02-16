@@ -500,6 +500,22 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 50%;
 }
 
+.w-1\/2 {
+  width: 50%;
+}
+
+.w-3\/4 {
+  width: 75%;
+}
+
+.w-4\/5 {
+  width: 80%;
+}
+
+.w-3\/5 {
+  width: 60%;
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -547,6 +563,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(115 194 251 / var(--tw-bg-opacity));
 }
 
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
 .p-2 {
   padding: 0.5rem;
 }
@@ -575,16 +596,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   text-align: justify;
 }
 
-.font-Poppins {
-  font-family: Poppins, sana-serif;
-}
-
-.font-Montserrat {
-  font-family: Montserrat, sans-serif;
-}
-
 .font-Montserrat-Alternates {
   font-family: Montserrat Alternates, sans-serif;
+}
+
+.font-Poppins {
+  font-family: Poppins, sana-serif;
 }
 
 .text-3xl {
