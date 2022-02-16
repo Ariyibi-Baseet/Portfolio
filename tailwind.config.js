@@ -3,7 +3,10 @@ module.exports = {
   // darkMode: 'class',
 
   // path to all of my template
-  content: ["./public/**/*.{html,js}"],
+  content: [
+    "./public/**/*.js",
+    "index.html",
+  ],
   theme: {
     extend: {
       colors: {
