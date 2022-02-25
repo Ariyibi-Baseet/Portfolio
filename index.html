@@ -48,10 +48,10 @@
 <body class="w-full min-h-screen bg-deep_blue">
 
     <!-- Navbar section starts  -->
-    <nav class="w-full py-2 px-10 sm:flex sm:justify-between sm:items-center border">
+    <nav class="w-full py-2 px-10 flex items-center justify-between sm:flex sm:justify-between sm:items-center">
       <span class="text-slate-50 text-3xl font-Montserrat-Alternates">Ariyibi<span class="font-bold text-maya_blue font-Montserrat-Alternates">.B</span></span>
       <!-- Navbar lists starts here-->
-      <ul class="gap-x-3 hidden sm:flex  border">
+      <ul class="gap-x-3 flex bg-deep_blue sm:items-center max-sm:absolute max-sm:left-0 max-sm:mt-64 max-sm:pl-9 max-sm:w-full max-sm:hidden max-sm:shadow-lg" id="navLinks">
         <a href="#">
           <li class="text-gray-300 hover:transition-colors hover:text-maya_blue p-2 font-Poppins">Home</li>
         </a> 
@@ -68,6 +68,14 @@
           <li class="text-gray-300 hover:transition-colors hover:text-maya_blue p-2 font-Poppins">Contact</li>
         </a>
       </ul>
+      <!-- Ends here -->
+
+      <!-- media icon starts here -->
+      <span class="text-white sm:hidden hover:cursor-pointer" id="icon">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 fill-white" viewBox="0 0 20 20">
+          <path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h6a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd" />
+        </svg>
+      </span>
       <!-- Ends here -->
     </nav>
     <!-- Ends here -->
@@ -122,7 +130,7 @@
 
   </section>
   <!-- Ends here -->
-    
+  <script src="./public/script.js"></script>
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init();
