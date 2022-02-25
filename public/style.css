@@ -468,6 +468,26 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-sepia:  ;
 }
 
+.absolute {
+  position: absolute;
+}
+
+.right-0 {
+  right: 0px;
+}
+
+.top-0 {
+  top: 0px;
+}
+
+.right-10 {
+  right: 2.5rem;
+}
+
+.top-2 {
+  top: 0.5rem;
+}
+
 .m-0 {
   margin: 0px;
 }
@@ -482,10 +502,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .mt-5 {
   margin-top: 1.25rem;
-}
-
-.block {
-  display: block;
 }
 
 .flex {
@@ -612,6 +628,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 0.25rem;
 }
 
+.text-left {
+  text-align: left;
+}
+
 .font-Montserrat-Alternates {
   font-family: Montserrat Alternates, sans-serif;
 }
@@ -719,28 +739,56 @@ Ensure the default browser behavior of the `hidden` attribute.
     position: absolute;
   }
 
+  .max-sm\:top-0 {
+    top: 0px;
+  }
+
   .max-sm\:left-0 {
     left: 0px;
+  }
+
+  .max-sm\:right-0 {
+    right: 0px;
   }
 
   .max-sm\:mt-64 {
     margin-top: 16rem;
   }
 
-  .max-sm\:mt-20 {
-    margin-top: 5rem;
-  }
-
   .max-sm\:block {
     display: block;
+  }
+
+  .max-sm\:flex {
+    display: flex;
   }
 
   .max-sm\:hidden {
     display: none;
   }
 
+  .max-sm\:min-h-screen {
+    min-height: 100vh;
+  }
+
   .max-sm\:w-full {
     width: 100%;
+  }
+
+  .max-sm\:flex-col {
+    flex-direction: column;
+  }
+
+  .max-sm\:items-start {
+    align-items: flex-start;
+  }
+
+  .max-sm\:items-center {
+    align-items: center;
+  }
+
+  .max-sm\:justify-center {
+    justify-content: center;
   }
 
   .max-sm\:border {
@@ -754,6 +802,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .max-sm\:pl-9 {
     padding-left: 2.25rem;
+  }
+
+  .max-sm\:text-left {
+    text-align: left;
   }
 }
 
