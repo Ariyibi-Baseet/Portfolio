@@ -565,12 +565,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   scroll-behavior: smooth;
 }
 
-.rounded {
-  border-radius: 0.25rem;
-}
-
 .rounded-lg {
   border-radius: 0.5rem;
+}
+
+.rounded {
+  border-radius: 0.25rem;
 }
 
 .bg-deep_blue {
@@ -735,8 +735,8 @@ Ensure the default browser behavior of the `hidden` attribute.
     right: 0px;
   }
 
-  .max-sm\:mt-64 {
-    margin-top: 16rem;
+  .max-sm\:mt-3 {
+    margin-top: 0.75rem;
   }
 
   .max-sm\:block {
@@ -759,6 +759,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     width: 100%;
   }
 
+  .max-sm\:cursor-pointer {
+    cursor: pointer;
+  }
+
   .max-sm\:flex-col {
     flex-direction: column;
   }
@@ -775,8 +779,18 @@ Ensure the default browser behavior of the `hidden` attribute.
     row-gap: 0.75rem;
   }
 
-  .max-sm\:border {
-    border-width: 1px;
+  .max-sm\:gap-x-3 {
+    -moz-column-gap: 0.75rem;
+         column-gap: 0.75rem;
+  }
+
+  .max-sm\:border-2 {
+    border-width: 2px;
+  }
+
+  .max-sm\:border-red-500 {
+    --tw-border-opacity: 1;
+    border-color: rgb(239 68 68 / var(--tw-border-opacity));
   }
 
   .max-sm\:bg-deep_blue {
@@ -784,22 +798,8 @@ Ensure the default browser behavior of the `hidden` attribute.
     background-color: rgb(4 30 66 / var(--tw-bg-opacity));
   }
 
-  .max-sm\:pl-9 {
-    padding-left: 2.25rem;
-  }
-
   .max-sm\:text-left {
     text-align: left;
-  }
-
-  .max-sm\:text-3xl {
-    font-size: 1.875rem;
-    line-height: 2.25rem;
-  }
-
-  .max-sm\:text-2xl {
-    font-size: 1.5rem;
-    line-height: 2rem;
   }
 
   .max-sm\:text-base {
