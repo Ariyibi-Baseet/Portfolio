@@ -6,6 +6,8 @@
     --blue:#2D31FA;
     --light-blue:#5D8BF4;
     --lighter-blue:#DFF6FF;
+    --pinky-like:#FF8891;
+    --green-like:#52CAB6;
 }
 
 *{
@@ -14,6 +16,7 @@
 
 body{
     font-size:16px;
+    background-color:var(--deep-blue) !important;
 }
 
 /* Styling for Preloader Section */
@@ -63,13 +66,10 @@ section{
     background-color:var(--deep-blue);
     /* border:2px solid white; */
     position: relative;
-    margin-top:64px;
+    margin-top:70px;
     z-index: 997;
 }
 
-.landing-sec{
-    /* border:2px solid white; */
-}
 
 .landing-col{
     display:flex;
@@ -94,9 +94,36 @@ section{
     font-family: 'Poppins', sans-serif;
 }
 
+mark{
+    background-color:var(--pinky-like) !important;
+    /* font-weight:bold; */
+    border-radius:5px;
+    color:var(--lighter-blue);
+}
+
+.btn-wrapper{
+    display: flex;
+    flex-wrap:wrap;
+    margin-top:30px;
+}
 .more-btn{
     font-family: 'Poppins', sans-serif !important;
     font-weight:400;
+    margin:5px 5px 5px 0;
+    flex-grow:1;
+}
+.gs-btn,.download-btn{
+    background-color:var(--blue) !important;
+    font-weight:bold !important;
+    color:var(--lighter-blue) !important;
+    letter-spacing: 2px;
+}
+.hire-btn{
+    flex-grow:1;
+    background-color: var(--pinky-like) !important;
+    font-weight:bold !important;
+    color:var(--lighter-blue) !important;
+    letter-spacing: 1px;
 }
 
 .social-icons{
